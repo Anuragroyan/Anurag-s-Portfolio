@@ -24,7 +24,7 @@ Each project includes:
 - Overview:
 A Trello-inspired task management app that helps users organize projects, assign tasks to team members, and track progress efficiently. Built with Firebase for authentication and real-time data management, it supports collaborative task planning with customizable task cards.
 
-- Key Features:
+## Key Features:
 * 🔐 User authentication (Login & Registration)
 * ☁️ Firebase-powered backend and data storage
 * ✅ Create, update, and manage tasks
@@ -33,7 +33,7 @@ A Trello-inspired task management app that helps users organize projects, assign
 * ✏️ Edit and 🗑️ delete task cards
 * 📋 Organize and track project progress collaboratively
 
-- Tech Stack
+## Tech Stack
 * Language: Kotlin
 * UI: Jetpack Compose (Material 3)
 * Architecture: MVVM
@@ -43,7 +43,7 @@ A Trello-inspired task management app that helps users organize projects, assign
 * Asynchronous Programming: Kotlin Coroutines & Flow
 * Navigation: Navigation Compose
 
-- Architecture
+## Architecture
 The app is built using MVVM with a layered architecture:
 * Presentation Layer: Jetpack Compose UI & ViewModels
 * Domain Layer: Business logic and use cases
