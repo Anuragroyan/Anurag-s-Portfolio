@@ -1,24 +1,55 @@
-# Anurag-s-Portfolio
+# Anurag's Mobile App Portfolio
 
-# 📱 Mobile App Portfolio
-
-Welcome! 👋
+👋 Welcome!
 
 Thank you for taking the time to explore my work.
 
-This repository serves as a curated portfolio of the mobile applications I’ve built throughout my learning and professional journey. Rather than browsing through numerous repositories, you’ll find my most impactful Android, iOS, and cross-platform projects organized in one place.
+This repository showcases the mobile applications I've built throughout my learning and professional journey. Instead of browsing through multiple repositories, you'll find my best Android, iOS, Flutter, and React Native projects organized in one place.
 
-# Each project includes:
+Each project includes:
+- 📱 Overview
+- ✨ Key Features
+- 🛠️ Tech Stack
+- 🏗️ Architecture
+- 📸 Screenshots/Demo
+- 🔗 Repository Link
 
-* 📱 Project overview
-* ✨ Key features
-* 🛠️ Technology stack
-* 🏗️ Architecture and implementation details
-* 📸 Screenshots or demo
-* 🔗 Source code and live links (where available)
+---
 
-My primary expertise is in Android development with Kotlin and Jetpack Compose, along with experience in iOS (SwiftUI) and cross-platform development. I enjoy building clean, scalable, and user-focused applications while continuously learning modern mobile technologies.
+# ⭐ Featured Projects
 
-I hope this portfolio provides a clear overview of my technical skills, development approach, and passion for creating high-quality mobile applications.
+# 🖁 Android Projects
 
-Thank you for your time, and I look forward to discussing my work with you!
+## TeamTaskerManagerApp
+- Overview:
+A Trello-inspired task management app that helps users organize projects, assign tasks to team members, and track progress efficiently. Built with Firebase for authentication and real-time data management, it supports collaborative task planning with customizable task cards.
+
+- Key Features:
+* 🔐 User authentication (Login & Registration)
+* ☁️ Firebase-powered backend and data storage
+* ✅ Create, update, and manage tasks
+* 👥 Add team members and assign tasks
+* 🎨 Customize task cards with color selection
+* ✏️ Edit and 🗑️ delete task cards
+* 📋 Organize and track project progress collaboratively
+
+- Tech Stack
+* Language: Kotlin
+* UI: Jetpack Compose (Material 3)
+* Architecture: MVVM
+* Dependency Injection: Hilt
+* Backend: Firebase Authentication & Cloud Firestore
+* Image Picker: Material Image Picker
+* Asynchronous Programming: Kotlin Coroutines & Flow
+* Navigation: Navigation Compose
+
+- Architecture
+The app is built using MVVM with a layered architecture:
+* Presentation Layer: Jetpack Compose UI & ViewModels
+* Domain Layer: Business logic and use cases
+* Data Layer: Firebase repositories and data sources
+
+- 📸 Screenshots/Demo
+  
+  
+
