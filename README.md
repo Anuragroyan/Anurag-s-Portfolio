@@ -56,7 +56,8 @@ The app is built using MVVM with a layered architecture:
 * The only pending enhancement is project-specific member visibility; currently, members are globally accessible, and I plan to refine the Firebase data model to support project-level access control.
 
 ## 📸 Screenshots/Demo:
-<img width="640" height="360" alt="2026-07-16 01-23-33" src="https://….com/user-attachments/assets/a5eb3cc4-9808-4876-9a57-3af512a3239d" />
+<img width="640" height="1436" alt="Teamtasker" src="https://github.com/user-attachments/assets/dd31f014-caf0-4a62-b784-04ec2215fd69" />
+
 
 ## NotepadApp
 - Overview
