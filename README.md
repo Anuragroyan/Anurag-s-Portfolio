@@ -33,7 +33,7 @@ A Trello-inspired task management app that helps users organize projects, assign
 * ✏️ Edit and 🗑️ delete task cards
 * 📋 Organize and track project progress collaboratively
 
-## Tech Stack
+## Tech Stack:
 * Language: Kotlin
 * UI: Jetpack Compose (Material 3)
 * Architecture: MVVM
@@ -43,20 +43,20 @@ A Trello-inspired task management app that helps users organize projects, assign
 * Android Libraries: AndroidX Core KTX, Lifecycle, Activity Compose
 * Build Management: Compose BOM, Firebase BOM
 
-## Architecture
+## Architecture:
 The app is built using MVVM with a layered architecture:
 * Presentation Layer: Jetpack Compose UI & ViewModels
 * Domain Layer: Business logic and use cases
 * Data Layer: Firebase repositories and data sources
 
-## 💡 Challenges & Learnings
+## 💡 Challenges & Learnings:
 * Rebuilt a task management app that I originally developed three years ago in Java/XML, this time using Kotlin, Jetpack Compose, Material 3, and the latest Android development practices.
 * Replaced custom XML implementations with official Android components such as Photo Picker, Date Picker, and Color Picker, resulting in a cleaner and more maintainable codebase.
 * Redesigned the Firebase data structure and recreated the app’s core features while following an AI-assisted workflow for UI prototyping and implementing the business logic independently.
 * The only pending enhancement is project-specific member visibility; currently, members are globally accessible, and I plan to refine the Firebase data model to support project-level access control.
 
-- 📸 Screenshots/Demo
-<img width="640" height="360" alt="2026-07-16 01-23-33" src="https://github.com/user-attachments/assets/a5eb3cc4-9808-4876-9a57-3af512a3239d" />
+## 📸 Screenshots/Demo:
+<img width="640" height="360" alt="2026-07-16 01-23-33" src="https://….com/user-attachments/assets/a5eb3cc4-9808-4876-9a57-3af512a3239d" />
 
 ## NotepadApp
 - Overview
@@ -71,7 +71,7 @@ Hex colors make information more organized and visually accessible.
 * 🗑️ Delete notes with ease
 * 📱 Modern and responsive UI built with Jetpack Compose
 
-## Tech Stack
+## Tech Stack:
 * Language: Kotlin
 * UI: Jetpack Compose (Material 3)
 * Architecture: MVVM
@@ -80,18 +80,48 @@ Hex colors make information more organized and visually accessible.
 * Android Libraries: AndroidX Core KTX, Lifecycle, Activity Compose
 * Build Management: Compose BOM, Firebase BOM
 
-## Architecture
-The application follows the MVVM (Model–View–ViewModel) architecture to maintain a clear separation of concerns. ViewModel manages the UI state and 
-Business logic, while Firebase Cloud Firestore serves as the data layer for storing and synchronizing notes, resulting in a scalable and maintainable application.
+## Architecture:
+The application follows the MVVM (Model–View–ViewModel) architecture to maintain a clear separation of concerns. ViewModel manages the UI state and Business logic, while Firebase Cloud Firestore serves as the data layer for storing and synchronizing notes, resulting in a scalable and maintainable application.
 
-## 💡 Challenges & Learnings
+## 💡 Challenges & Learnings:
 * Implemented AndroidX Core KTX, Lifecycle, and Kotlin Coroutines to build a responsive, lifecycle-aware, and efficient application.
 * Redesigned the UI to closely resemble a real notepad while creating a clean, modern, and intuitive user experience with Jetpack Compose.
 * Structured the application using MVVM and integrated Firebase Cloud Firestore to deliver maintainable code and efficient CRUD operations.
 
-- 📸 Screenshots/Demo
+## 📸 Screenshots/Demo:
 <img width="640" height="1138" alt="Notepad" src="https://github.com/user-attachments/assets/e779b764-20bd-431f-a59d-8d6d2197f6e8" />
   
- 
-  
+ ## Offline BankApp
+- Overview:
+A modern offline banking application that helps users create and manage bank accounts while tracking debit and credit transactions.
+It also supports data reset and JSON export, providing a simple and efficient way to manage financial records locally.
 
+## Key Features:
+* 🏦 Create and manage multiple bank accounts
+* 💸 Record debit and credit transactions
+* 📝 Store transaction details with account history
+* 📊 View organized transaction records
+* 📴 Fully offline functionality with local data storage
+* 🔄 Reset all application data when required
+* 📄 Export transaction data in JSON format
+* 📱 Clean and intuitive Jetpack Compose UI
+
+## Tech Stack:
+* Language: Kotlin
+* UI: Jetpack Compose (Material 3)
+* Architecture: MVVM
+* State Management: ViewModel & Compose State
+* Serialization: Kotlinx Serialization (JSON)
+* Android Libraries: AndroidX Core KTX, Lifecycle, Activity Compose, Foundation
+* Build Management: Compose BOM
+
+## Architecture:
+The application follows the MVVM (Model–View–ViewModel) architecture to separate the UI, business logic, and data layers. ViewModel manages the application state, while the local data layer handles offline storage and JSON serialization, resulting in a scalable, maintainable, and responsive application.
+
+## 💡 Challenges & Learnings:
+* Implemented Kotlin Serialization to export and manage transaction data efficiently in JSON format.
+* Applied the Repository Pattern to separate data handling from business logic, improving code maintainability and scalability.
+* Implemented a custom ViewModel Factory for proper ViewModel initialization and lifecycle-aware state management.
+
+## 📸 Screenshots/Demo:
+<img width="640" height="1138" alt="BankinApp" src="https://github.com/user-attachments/assets/1ba84165-0242-4c8f-9205-8e8c880a95cf" />
