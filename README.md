@@ -20,6 +20,9 @@ Each project includes:
 
 # 🖁 Android Projects
 
+## Kotlin Projects<img width="512" height="512" alt="Kotlin" src="https://github.com/user-attachments/assets/2fde5ebb-5724-4f58-818a-264d9738f4f3" />
+ 
+
 ## TeamTaskerManagerApp
 - Overview:
 A Trello-inspired task management app that helps users organize projects, assign tasks to team members, and track progress efficiently. Built with Firebase for authentication and real-time data management, it supports collaborative task planning with customizable task cards.
