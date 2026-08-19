@@ -25,7 +25,7 @@ Each project includes:
        width="32"
        height="32"
        alt="Kotlin"
-       style="vertical-align: middle;">
+       style="vertical-align: center;">
   Projects
 </h2>
  
