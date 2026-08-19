@@ -20,7 +20,14 @@ Each project includes:
 
 # 🖁 Android Projects
 
-## <img width="32" height="32" alt="Kotlin" src="https://github.com/user-attachments/assets/2fde5ebb-5724-4f58-818a-264d9738f4f3" align="center" /> Projects
+<h2>
+  <img src="https://github.com/user-attachments/assets/2fde5ebb-5724-4f58-818a-264d9738f4f3"
+       width="32"
+       height="32"
+       alt="Kotlin"
+       style="vertical-align: middle;">
+  Projects
+</h2>
  
 
 ## TeamTaskerManagerApp
