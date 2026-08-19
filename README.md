@@ -104,7 +104,7 @@ It also supports data reset and JSON export, providing a simple and efficient wa
 * 🏦 Create and manage multiple bank accounts
 * 💸 Record debit and credit transactions
 * 📝 Store transaction details with account history
-* 📊 View organized transaction records
+* 📊 View organised transaction records
 * 📴 Fully offline functionality with local data storage
 * 🔄 Reset all application data when required
 * 📄 Export transaction data in JSON format
@@ -129,3 +129,43 @@ The application follows the MVVM (Model–View–ViewModel) architecture to sepa
 
 ## 📸 Screenshots/Demo:
 <img width="640" height="1138" alt="BankinApp" src="https://github.com/user-attachments/assets/1ba84165-0242-4c8f-9205-8e8c880a95cf" />
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="100" height="100" alt="Flutter" src="https://github.com/user-attachments/assets/8c7a6c66-4761-49e6-8f8b-e13899a02f1d" />
+
+## MealMenuApp
+- Overview:
+A Flutter meal discovery app that displays meals with images and allows users to filter meals based on categories and preferences. Built with
+ Flutter River-pod for efficient state management and a clean, organised application architecture.
+
+## Key Features:
+* 🍽️ Categorised Meals — Browse meals organised into different categories.
+* 🔍 Meal Filtering — Filter meals based on dietary preferences and requirements.
+* 📸 Meal Images — View meals with images and detailed information.
+* ❤️ Favorites — Mark meals as favorites for quick access.
+* 📋 Meal Details — View ingredients, preparation steps, and other meal information.
+* 🧭 Category Navigation — Easily navigate between meal categories.
+* ⚡ River-pod State Management — Efficiently manage favorites and filter states.
+
+## Tech Stack:
+* Framework: Flutter
+* Language: Dart
+* State Management: Flutter Riverpod
+* UI: Flutter Widgets
+* Navigation: Flutter Navigation
+* Architecture: Provider-based architecture
+* Assets: Images and visual resources used in the application
+
+## Architecture:
+The application follows a feature-based architecture with Flutter River-pod for state management. Meal data and application logic are separated from 
+the UI, while River-pod providers manage meal filtering, categories, and favorites, making the app modular and maintainable.
+
+## 💡 Challenges & Learnings:
+* Learned and implemented Flutter Riverpod for efficient state management and handling application state.
+* Configured Flutter asset files and integrated them with the application’s resource management.
+* Implemented JSON-based data handling, ensuring meal data is correctly parsed, passed, and displayed in the UI.
+* Implemented an image fallback mechanism that uses local asset images when an online image URL is unavailable or deleted.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="1422" alt="Screen_recording_20260819_134419" src="https://github.com/user-attachments/assets/e4aada56-c266-49d1-a3ca-056c4e9d8cd0" />
