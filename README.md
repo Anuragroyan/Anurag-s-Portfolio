@@ -137,7 +137,7 @@ The application follows the MVVM (Model–View–ViewModel) architecture to sepa
 ## MealMenuApp
 - Overview:
 A Flutter meal discovery app that displays meals with images and allows users to filter meals based on categories and preferences. Built with
- Flutter River-pod for efficient state management and a clean, organised application architecture.
+ Flutter Riverpod for efficient state management and a clean, organised application architecture.
 
 ## Key Features:
 * 🍽️ Categorised Meals — Browse meals organised into different categories.
@@ -146,7 +146,7 @@ A Flutter meal discovery app that displays meals with images and allows users to
 * ❤️ Favorites — Mark meals as favorites for quick access.
 * 📋 Meal Details — View ingredients, preparation steps, and other meal information.
 * 🧭 Category Navigation — Easily navigate between meal categories.
-* ⚡ River-pod State Management — Efficiently manage favorites and filter states.
+* ⚡ Riverpod State Management — Efficiently manage favorites and filter states.
 
 ## Tech Stack:
 * Framework: Flutter
@@ -158,8 +158,8 @@ A Flutter meal discovery app that displays meals with images and allows users to
 * Assets: Images and visual resources used in the application
 
 ## Architecture:
-The application follows a feature-based architecture with Flutter River-pod for state management. Meal data and application logic are separated from 
-the UI, while River-pod providers manage meal filtering, categories, and favorites, making the app modular and maintainable.
+The application follows a feature-based architecture with Flutter Riverpod for state management. Meal data and application logic are separated from 
+the UI, while Riverpod providers manage meal filtering, categories, and favorites, making the app modular and maintainable.
 
 ## 💡 Challenges & Learnings:
 * Learned and implemented Flutter Riverpod for efficient state management and handling application state.
@@ -169,3 +169,105 @@ the UI, while River-pod providers manage meal filtering, categories, and favorit
 
 ## 📸 Screenshots/Demo: 
 <img width="640" height="1422" alt="Screen_recording_20260819_134419" src="https://github.com/user-attachments/assets/e4aada56-c266-49d1-a3ca-056c4e9d8cd0" />
+
+## SpamDetector_PlatformChannelApp
+- Overview:
+A Flutter-based spam message detection app that uses Flutter Platform Channels to communicate with native Kotlin code. It implements a lightweight Naive Bayes-like
+spam classifier based on keyword frequency to analyze messages and identify potential spam.
+
+## Key Features:
+* 📩 Spam Message Detection — Analyze messages and classify them as spam or legitimate.
+* 🧠 Keyword-Frequency Classifier — Uses a lightweight Naive Bayes-like approach based on keyword frequency.
+* 🔗 Flutter–Kotlin Communication — Uses Platform Channels to connect the Flutter UI with native Kotlin logic.
+* ⚡ Real-Time Analysis — Processes the entered message and provides an immediate classification result.
+* 📊 Spam Probability/Score — Evaluates the message based on detected spam-related keywords.
+
+## Tech Stack:
+* Framework: Flutter
+* Language: Dart
+* Native Language: Kotlin
+* Platform Integration: Flutter Platform Channels
+* Spam Detection: Keyword-frequency-based Naïve Bayes-like classifier
+* UI: Flutter Widgets
+* State Management: Flutter State Management
+
+## Architecture:
+The app follows a Flutter–Native hybrid architecture, where the Flutter layer handles the UI and user interaction, while Kotlin performs the native spam classification logic. Flutter Platform Channels act as the bridge between Dart and Kotlin, passing messages for analysis and returning the classification result to the Flutter UI.
+
+## 💡 Challenges & Learnings:
+* Learned how to integrate and work with TensorFlow Lite (.tflite) models within a Flutter application.
+* Implemented Flutter Platform Channels to establish communication between Flutter (Dart) and native Kotlin code.
+* Developed a lightweight Naive Bayes-like spam classifier using keyword frequency to analyze and classify messages.
+* Improved understanding of Flutter–native integration and combining machine-learning concepts with mobile application development.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="1422" alt="Screen_recording_20260820_010138" src="https://github.com/user-attachments/assets/78ca5076-8e5c-409e-b6b8-1637b5ec494c" />
+
+## Sarcasm_Detector_NB_Classifier_App
+- Overview:
+A Flutter-based sarcasm detection app that uses a JSON dataset and a Naive Bayes classifier to analyze text and determine whether a statement is sarcastic. The app demonstrates lightweight text classification and machine-learning concepts implemented directly in Flutter.
+
+## Key Features:
+* 🧠 Sarcasm Detection — Classifies user-provided text as sarcastic or non-sarcastic.
+* 📊 Naive Bayes Classification — Uses a lightweight Naive Bayes algorithm for text classification.
+* 📄 JSON Dataset — Loads and processes training data from a JSON-based dataset.
+* 🔤 Text Analysis — Processes input text and analyzes word patterns for classification.
+* ⚡ Instant Prediction — Provides a classification result directly within the Flutter app.
+* 📱 Simple Flutter UI — Clean interface for entering text and viewing prediction results.
+
+## Tech Stack:
+* Framework: Flutter
+* Language: Dart
+* Classification Algorithm: Naive Bayes
+* Dataset: JSON
+* Text Processing: Keyword/word-frequency analysis
+* UI: Flutter Widgets
+
+## Architecture:
+The application follows a layered architecture, separating the Flutter UI, data handling, text processing, and classification logic. The JSON dataset provides the training data, while the text-processing layer prepares the input and passes it to the Naive Bayes classifier, which returns the sarcasm prediction to the Flutter UI.
+
+## 💡 Challenges & Learnings:
+* Learned how to implement a Naive Bayes classifier using a JSON dataset to detect sarcasm in user-provided sentences.
+* Implemented text processing and word-frequency analysis to train and classify sentences as sarcastic or non-sarcastic.
+* Integrated Flutter Platform Channels to enable communication between the Flutter (Dart) layer and native Kotlin classification logic.
+* Gained practical experience in combining Flutter, Kotlin, JSON-based data processing, and machine-learning classification in a single application.
+
+## 📸 Screenshots/Demo:
+<img width="640" height="1422" alt="Screen_recording_20260820_012614" src="https://github.com/user-attachments/assets/de60cf17-59e1-47c6-ab13-333496694ff3" />
+
+## Local_MarketPlace_App
+- Overview:
+A Flutter-based local marketplace application that connects users to discover and list products within their local community. The app includes user authentication, product management, profiles, and in-app chat to support communication between buyers and sellers.
+
+## Key Features:
+* 🔐 User Authentication — Secure login and registration for buyers and sellers.
+* 🛍️ Product Listings — Create and publish products with relevant details.
+* 🔎 Product Discovery — Browse and explore products available in the marketplace.
+* ✏️ Product Management — Add, edit, and manage listed products.
+* 👤 User Profiles — View and manage personal profile information.
+* 💬 In-App Chat — Communicate directly between buyers and sellers.
+* ☁️ Cloud Data Management — Store and manage marketplace data using Firebase.
+* 📱 Responsive Flutter UI — Clean interface designed for a smooth mobile experience.
+
+## Tech Stack
+* Framework: Flutter
+* Language: Dart
+* State Management: Provider
+* Backend: Firebase
+* Authentication: Firebase Authentication
+* Database: Cloud Firestore
+* UI: Flutter Widgets
+* Architecture: Provider-based architecture
+* Navigation: Flutter Navigation
+
+## Archtecture:
+The application follows a Provider-based architecture, separating the UI, application state, and data models. Provider manages marketplace state and business logic, while Firebase Authentication and Cloud Firestore handle user authentication and marketplace data, making the application modular and maintainable.
+
+## 💡 Challenges & Learnings:
+* Developed the Local Marketplace workflow, understanding how buyers and sellers interact through product listings, profiles, and communication.
+* Implemented Provider for Flutter state management and learned efficient application state handling.
+* Built a rule-based chatbot to process predefined queries and provide relevant responses.
+* Integrated Firebase Authentication, Cloud Firestore, and Image Picker for user authentication, marketplace data, and product images.
+
+## 📸 Screenshots/Demo:
+<img width="640" height="1422" alt="Screen_recording_20260820_020539" src="https://github.com/user-attachments/assets/b3b8bffb-961a-45b6-b8f4-a57f46ee477e" />
