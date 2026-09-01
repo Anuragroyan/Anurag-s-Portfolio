@@ -371,3 +371,91 @@ The application follows a component-based and service-oriented architecture, sep
 
 ## 📸 Screenshots/Demo: 
 <img width="640" height="360" alt="local_warehouse" src="https://github.com/user-attachments/assets/6b562add-309d-409e-9a17-5d9ba3d05f08" />
+
+## Vibe_Checked_App:
+- Overview:
+VibeCheck is a micro-journaling React Native app that lets users capture their mood using emojis, colors, and three-word expressions, transforming daily check-ins into a dynamic visual Mood Mosaic.
+
+## Key Features:
+* 😊 Quick Mood Check-In — Log your current mood quickly.
+* 🎨 Mood Mosaic — Display moods in a colorful visual grid.
+* 😀 Emoji-Based Mood Selection — Choose an emoji representing your current vibe.
+* 📝 3-Word Mood Expression — Describe your mood with a short phrase.
+* ➕ Add New Mood Entries — Record multiple mood check-ins throughout the day.
+* ✏️ Edit Mood Entries — Update previously recorded moods.
+* 📜 Mood History — View your previous mood check-ins.
+* 🗑️ Delete Mood Entries — Remove unwanted mood records.
+* 📊 Real-Time Mood Statistics — Calculate mood insights using Redux selectors.
+* ⚡ Redux State Management — Manage mood data efficiently with Redux.
+* 💾 Local Storage Persistence — Save mood data locally on the device.
+* 📱 Clean React Native UI — Simple and responsive mobile interface.
+
+## Tech Stack:
+* ⚛️ React Native — Mobile app development
+* 🟨 JavaScript — Programming language
+* 🔄 Redux Toolkit — State management
+* 🧭 React Navigation — Screen navigation
+* 💾 AsyncStorage — Local data persistence
+* 📊 Redux Selectors — Real-time mood statistics
+* 🎨 React Native StyleSheet — UI styling
+* Version Control: Git & GitHub
+
+## Architecture:
+VibeCheck follows a component-based architecture with centralized Redux state management. Screens handle user interactions, while Redux manages mood CRUD 
+operations and application state.Selectors provide real-time insights, and local storage ensures mood data persists on the device.
+
+## 💡 Challenges & Learnings:
+* Learned to manage mood CRUD operations efficiently using Redux Toolkit.
+* Improved understanding of Redux selectors for calculating real-time mood statistics.
+* Learned how to implement local data persistence using AsyncStorage.
+* Gained experience building a dynamic grid-based Mood Mosaic UI.
+* Improved understanding of React Navigation and component-based architecture.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="360" alt="Vibecgheck" src="https://github.com/user-attachments/assets/35f39eff-0df7-4f8b-b892-c8434c141649" />
+
+## IMA - Insurance_Management_App:
+- Overview:
+The Insurance Management App is a React Native application that simplifies the real-world workflow of managing insurance operations, helping manage customers, insurance companies, agents, and policies. It provides a centralized system for handling insurance data, from customer management and policy creation to tracking coverage, premiums, and policy status.
+
+## Key Features:
+* 👋 Personalised User Greeting – Displays a greeting message with the logged-in user’s name.
+* 👤 Customer Management – Add, view, update, and delete customer details.
+* 🏢 Insurance Company Management – Manage insurance company information.
+* 🧑‍💼 Agent Management – Add and manage insurance agents.
+* 🛡️ Policy Management – Create, view, update, and delete insurance policies.
+* 🔗 Data Relationships – Connect policies with customers, insurance companies, and optional agents.
+* 💰 Premium & Coverage Tracking – Manage policy premiums and coverage amounts.
+* 📅 Policy Status Tracking – Track Active, Expired, and Cancelled policies.
+* 🔐 User Authentication – Secure registration and login using JWT authentication.
+* ⚠️ Frontend & Backend Error Handling – Handles validation errors, API failures, server errors, and displays user-friendly error messages.
+* 🔄 Complete CRUD Operations – Perform Create, Read, Update, and Delete operations across all major modules.
+* 📱 User-Friendly Mobile Interface – Clean and simple React Native interface for managing insurance operations.
+
+## Tech Stack:
+📱 React Native – Mobile app development
+💻 JavaScript – Programming language
+⚛️ React Hooks – State and lifecycle management
+🔗 Axios – API communication
+💾 AsyncStorage – Local data storage
+⚙️ Node.js & Express.js – Backend development
+🗄️ MongoDB & Mongoose – Database and data modeling
+🔐 JWT & bcryptjs – Authentication and security
+🧪 Postman – API testing
+🔧 Version Control: Git & GitHub
+
+## Architecture:
+The Insurance Management App follows a structured client-server architecture, connecting the React Native mobile app with a Node.js and Express.js backend through REST APIs. The backend manages authentication and insurance-related modules, while Mongoose handles data models and relationships. All application data is securely stored and managed in MongoDB.
+
+## 💡 Challenges & Learnings:
+* Managing Model Relationships: Learned how to correctly implement the one-to-many relationship between Customers and Policies, where one customer
+  can have multiple policies.
+* Frontend–Backend Data Consistency: Faced issues where the frontend sent a customer ID correctly, but the backend validation expected a different data structure. Learned the importance of keeping API payloads and backend models consistent.
+* Handling Related Data: Learned how to fetch and manage Customers, Insurance Companies, and Agents together using Promise.all() for better performance.
+* CRUD with Relationships: Implemented policy creation, updating, and deletion while handling related MongoDB ObjectIds.
+* Debugging API Errors: Learned to use console.log() and inspect backend error responses to identify issues such as “One or more customers were
+  not found.”
+* React Native State Management: Improved understanding of managing selected customers, companies, and agents using React useState and modal-based selection.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="360" alt="IMA" src="https://github.com/user-attachments/assets/af7f1cb8-1091-4ce9-bd6b-b96301cfb633" />
