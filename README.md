@@ -69,7 +69,7 @@ The app is built using MVVM with a layered architecture:
 
 📸 Screenshots/Demo
 
-<img width="640" height="1436" alt="Teamtasker" src="https://github.com/user-attachments/assets/dd31f014-caf0-4a62-b784-04ec2215fd69" />
+<img width="640" height="1438" alt="Teamtasker" src="https://github.com/user-attachments/assets/dd31f014-caf0-4a62-b784-04ec2215fd69" />
 
 ⸻
 
@@ -203,7 +203,7 @@ The application follows a feature-based architecture with Flutter Riverpod for s
 
 📸 Screenshots/Demo
 
-<img width="640" height="1422" alt="Screen_recording_20260819_134419" src="https://github.com/user-attachments/assets/e4aada56-c266-49d1-a3ca-056c4e9d8cd0" />
+<img width="640" height="1491" alt="Screen_recording_20260819_134419" src="https://github.com/user-attachments/assets/e4aada56-c266-49d1-a3ca-056c4e9d8cd0" />
 
 ⸻
 
@@ -215,7 +215,7 @@ A Flutter-based spam message detection app that uses Flutter Platform Channels t
 
 📸 Screenshots/Demo
 
-<img width="640" height="1422" alt="Spam Detector" src="https://github.com/user-attachments/assets/78ca5076-4761-49d1-a3ca-056c4e9d8cd0" />
+<img width="640" height="1491" alt="Spam Detector" src="https://github.com/user-attachments/assets/78ca5076-4761-49d1-a3ca-056c4e9d8cd0" />
 
 ⸻
 
@@ -227,7 +227,7 @@ A Flutter-based sarcasm detection app that uses a JSON dataset and a Naive Bayes
 
 📸 Screenshots/Demo
 
-<img width="640" height="1422" alt="Sarcasm Detector" src="https://github.com/user-attachments/assets/de60cf17-59e1-47c6-ab13-333496694ff3" />
+<img width="640" height="1491" alt="Sarcasm Detector" src="https://github.com/user-attachments/assets/de60cf17-59e1-47c6-ab13-333496694ff3" />
 
 ⸻
 
@@ -341,7 +341,7 @@ The app follows the MVVM (Model–View–ViewModel) architecture to maintain a c
 
 📸 Screenshots/Demo
 
-<img width="640" height="1391" alt="Shopping Cart" src="https://github.com/user-attachments/assets/fa8c2f4b-c5fc-4016-b1d1-c457f47e4d55" />
+<img width="640" height="1491" alt="Shopping Cart" src="https://github.com/user-attachments/assets/fa8c2f4b-c5fc-4016-b1d1-c457f47e4d55" />
 
 ⸻
 
@@ -387,7 +387,7 @@ The app follows the MVVM (Model–View–ViewModel) architecture to maintain a c
 
 📸 Screenshots/Demo
 
-<img width="640" height="1391" alt="Notepad" src="https://github.com/user-attachments/assets/e62c3677-402e-4d6c-a332-c13255b9a250" />
+<img width="640" height="1491" alt="Notepad" src="https://github.com/user-attachments/assets/e62c3677-402e-4d6c-a332-c13255b9a250" />
 
 ⸻
 
@@ -433,7 +433,7 @@ The app follows the MVVM (Model–View–ViewModel) architecture to keep the boo
 
 📸 Screenshots/Demo
 
-<img width="640" height="1591" alt="Ticket Booking" src="https://github.com/user-attachments/assets/bcd228fd-01ce-4088-b32a-8195cac90abe" />
+<img width="640" height="1491" alt="Ticket Booking" src="https://github.com/user-attachments/assets/bcd228fd-01ce-4088-b32a-8195cac90abe" />
 
 ⸻
 
