@@ -433,7 +433,7 @@ The app follows the MVVM (Model–View–ViewModel) architecture to keep the boo
 
 📸 Screenshots/Demo
 
-<img width="640" height="1391" alt="Ticket Booking" src="https://github.com/user-attachments/assets/bcd228fd-01ce-4088-b32a-8195cac90abe" />
+<img width="640" height="1591" alt="Ticket Booking" src="https://github.com/user-attachments/assets/bcd228fd-01ce-4088-b32a-8195cac90abe" />
 
 ⸻
 
