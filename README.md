@@ -459,3 +459,124 @@ The Insurance Management App follows a structured client-server architecture, co
 
 ## 📸 Screenshots/Demo: 
 <img width="640" height="360" alt="IMA" src="https://github.com/user-attachments/assets/af7f1cb8-1091-4ce9-bd6b-b96301cfb633" />
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+<img width="100" height="100" alt="swift" src="https://github.com/user-attachments/assets/b385e336-103c-4f3a-9b2f-1fc075077dfb" />
+
+## ShoppingCartApp
+- Overview: 
+🛒 Shopping Cart App is a Swift-based iOS e-commerce application built to demonstrate real-world shopping workflows. It features product browsing, cart management, quantity selection,
+ favorites, checkout, and order history, with Firebase powering real-time product, cart, favorite, and order data management.
+
+## Key Features:
+* 🛍️ Product Browsing – Explore and view available products.
+* 🛒 Cart Management – Add, remove, and manage products in the cart.
+* ➕➖ Quantity Selection – Increase or decrease product quantities.
+* ❤️ Favorites – Save products for quick access later.
+* 💳 Checkout – Complete the shopping and order placement flow.
+* 📦 Order History – View previously placed orders.
+* 🔥 Firebase Integration – Store and manage products, carts, favorites, and orders.
+* 📱 Native iOS UI – Clean and intuitive interface built with Swift.
+
+## Tech Stack:
+* 🧑‍💻 Swift – Primary iOS development language.
+* 🎨 SwiftUI – Modern declarative UI framework.
+* 🔥 Firebase – Firestore & Authentication for cloud data and user management.
+* 🏗️ MVVM – Clean separation of UI, logic, and data layers.
+* ⚡ Async/Await – Efficient asynchronous operations.
+* 🧭 NavigationStack – Screen navigation and app flow.
+* 🛠️ Xcode – iOS development, debugging, and testing.
+* 🌐 Git & GitHub – Version control and project management.
+
+## Architecture:
+The app follows the MVVM (Model–View–ViewModel) architecture to maintain a clean, modular, and scalable codebase. Models define product, cart, favorite, and order data, while SwiftUI 
+Views handle the user interface and interactions. ViewModels manage UI state and business logic, communicating with Firebase for authentication and Firestore operations.
+
+## 💡 Challenges & Learnings:
+* 📦 Swift Package Manager – Learned dependency management and package integration in iOS.
+* 🔥 Firebase Setup – Gained practical experience integrating Firebase into an iOS application.
+* 🏗️ Clean Architecture – Practiced separating UI and business logic for better code organization.
+* 🧩 Code Structure – Improved understanding of writing clean, modular, and maintainable code.
+* 📚 iOS Development – Strengthened practical Swift and SwiftUI development skills.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="1391" alt="shoppingcart" src="https://github.com/user-attachments/assets/fa8c2f4b-c5fc-4016-b1d1-c457f47e4d55" />
+
+## NotePadApp
+- Overview:
+📝 Notepad App is a Kotlin-based Android note-taking application designed to demonstrate clean CRUD functionality and practical data management. Users can create, view, edit, and
+ delete notes while customizing each note with a Hex color for better visual organization. The app focuses on a simple, intuitive interface with a clean and maintainable architecture.
+
+## Key Features:
+* 📝 Create Notes – Add and save new notes easily.
+* 👀 View Notes – Browse saved notes in an organized layout.
+* ✏️ Update Notes – Edit existing note content and details.
+* 🗑️ Delete Notes – Remove unwanted notes.
+* 🎨 Hex Color Customization – Assign custom colors to individual notes.
+* 🔄 Complete CRUD Operations – Full Create, Read, Update, and Delete functionality.
+* 📱 Simple UI – Clean and intuitive interface for easy note management.
+* 🔥 Firebase Integration – Store and manage notes using Firebase.
+
+## Tech Stack:
+* 🧑‍💻 Swift – Primary programming language for iOS development.
+* 🎨 SwiftUI – Declarative framework for building the user interface.
+* 🔥 Firebase Firestore – Cloud database for storing and managing notes.
+* 🏗️ MVVM Architecture – Separates UI, business logic, and data management.
+* ⚡ Async/Await – Handles asynchronous Firebase operations.
+* 🛠️ Xcode – iOS development, debugging, and testing.
+* 🌐 Git & GitHub – Version control and project management.
+
+## Architecture:
+The app follows the MVVM (Model–View–ViewModel) architecture to maintain a clean and organized codebase. The Model manages note data such as title, content, and Hex color, 
+while SwiftUI Views handle the user interface and interactions. ViewModels manage UI state, CRUD operations, and business logic, with Firebase Firestore handling cloud data 
+storage and retrieval.
+
+## 💡 Challenges & Learnings:
+* 📦 Swift Package Manager – Learned dependency management and package integration in an iOS project.
+* 🔥 Firebase Firestore – Gained practical experience storing, retrieving, updating, and deleting notes.
+* 🔄 CRUD Implementation – Strengthened understanding of implementing complete Create, Read, Update, and Delete operations.
+* 🎨 UI & Business Logic Separation – Practiced separating SwiftUI interface from application logic using MVVM.
+* 🧩 Clean Code Structure – Improved skills in building a simple, modular, and maintainable codebase.
+* 📚 SwiftUI Development – Strengthened practical iOS development skills through a real-world note-taking application.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="1391" alt="notepad" src="https://github.com/user-attachments/assets/e62c3677-402e-4d6c-a332-c13255b9a250" />
+
+## TicketApp
+- Overview:
+🎫 TicketBooking App is a mobile ticket-booking application designed to provide a simple and seamless reservation experience. Users can browse available shows or events, check real-time seat availability, select preferred seats, and complete bookings through a clean and intuitive interface.
+
+## Key Features:
+* 🎫 Ticket Booking – Book tickets through a simple and streamlined flow.
+* 💺 Real-Time Seat Availability – View available and occupied seats instantly.
+* 🪑 Seat Selection – Select preferred seats before confirming a booking.
+* 📋 Booking Details – Review selected seats and booking information.
+* ✅ Booking Confirmation – Complete and confirm ticket reservations.
+* 📱 User-Friendly UI – Clean and intuitive interface for a smooth booking experience.
+* 🔄 Dynamic Seat Updates – Keep seat availability synchronized during bookings.
+
+## Tech Stack:
+* 🧑‍💻 Kotlin – Primary programming language for Android development.
+* 🎨 Jetpack Compose – Modern declarative UI toolkit.
+* 🔥 Firebase Firestore – Stores and manages events, seats, and booking data.
+* 🏗️ MVVM Architecture – Separates UI, business logic, and data management.
+* ⚡ Kotlin Coroutines – Handles asynchronous operations efficiently.
+* 🧭 Navigation Compose – Manages navigation between app screens.
+* 🛠️ Android Studio – Development, debugging, and testing.
+* 🌐 Git & GitHub – Version control and project management.
+
+## Architecture:
+The app follows the MVVM (Model–View–ViewModel) architecture to keep the booking workflow clean, modular, and easy to maintain. The Model manages event, seat, and booking data, while Jetpack Compose Views handle the user interface and interactions. ViewModels manage UI state, seat selection, booking logic, and business operations, with Firebase Firestore handling real-time seat availability and booking data.
+
+## 💡 Challenges & Learnings:
+* 💺 Real-Time Seat Availability – Learned to manage and synchronize dynamic seat availability during bookings.
+* 🎫 Booking Workflow – Implemented a complete flow from seat selection to ticket confirmation.
+* 🔥 Firebase Firestore – Gained practical experience managing real-time event, seat, and booking data.
+* 🏗️ MVVM Architecture – Practiced separating UI, business logic, and data handling for cleaner code.
+* ⚡ State Management – Improved understanding of managing seat selection and booking states with Jetpack Compose.
+* 📱 UI Design – Strengthened skills in creating a simple and intuitive booking interface.
+
+## 📸 Screenshots/Demo: 
+<img width="640" height="1391" alt="ticket" src="https://github.com/user-attachments/assets/bcd228fd-01ce-4088-b32a-8195cac90abe" />
+
